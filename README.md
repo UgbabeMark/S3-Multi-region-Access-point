@@ -1,3 +1,3 @@
-# S3 Multi-Region Access point
+  # S3 Multi-Region Access point
 
-![Enrollment](Images/s3-multi-region-access-piont.png)
+  ![Enrollment](Images/s3-multi-region-access-piont.png)
