@@ -88,18 +88,20 @@ Select __Permission__ to access the __bucket Policy__ and select __edit bucket p
 
 Replace s3 ARN and MARP ARN.
 
+copy and paste the IAM policy  provided.
+
 ![Enrollment](Images/Bucketpolicy.png)
 
 # 6. Testing S3 Multi-region access point and bucket replication.
 
-This command will create a file in the closest bucket. make sure you choose a close region to any of the created regions.
+This command will create a file in the closest bucket. make sure you choose a close region to any of the created bucket regions.
 
 Use Aws Cli to run this command
 
 ![Enrollment](Images/Testing.png)
 
 
-Check your S3 bucket to see file in the bucket close to the selected region where the file was created.
+Check your S3 bucket to see the file in the bucket close to the selected region where the file was created.
 
 The file will be replicated to the other bucket. check both buckets.
 
